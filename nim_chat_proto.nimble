@@ -5,6 +5,8 @@ author        = "jazzz"
 description   = "Type definitions for the chat protocol"
 license       = "MIT"
 
+installDirs = @["proto"]
+
 # Dependencies
 requires "nim >= 2.0.14"
 requires "chronicles"
