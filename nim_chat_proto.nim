@@ -7,4 +7,7 @@ export protobuf_serialization
 
 # TODO: Do the Objects have to be listed manually?
 export HistoryEntry
-
+export ReliableBytes
+export EncryptedBytes
+export UmbraEnvelopeV1
+export InboxV1Frame
