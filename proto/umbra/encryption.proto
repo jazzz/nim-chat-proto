@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package umbra.encryption;
+
+
+message Plaintext {
+    bytes payload=1;
+}
+
+message Ecies {
+    bytes encrypted_bytes=1;
+    bytes ephemeral_pubkey = 2;
+    bytes tag = 3;
+}
+
+
